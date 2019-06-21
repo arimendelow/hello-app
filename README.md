@@ -1,24 +1,9 @@
-# README
+# Ruby on Rails tutorial HELLO app (with some snazzy additions!)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the first application for the [*Ruby on Rails Tutorial*](https://www.railstutorial.org/).
 
-Things you may want to cover:
+NOTES, for production (local use):
+* Had to run `/usr/local/Cellar/postgresql/11.3//bin/createuser -s postgres` to create a user called `postgres` in order for the following command, which created the databases, to work:
+* `bundle exec rake db:create:all`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is in addition to installing postgresql locally, which is another seperate pain in the tuchas.
