@@ -7,3 +7,5 @@ NOTES, for production (local use):
 * `bundle exec rake db:create:all`
 
 This is in addition to installing postgresql locally, which is another seperate pain in the tuchas.
+
+Also, don't forget to create a `.env` file with your `HELLO_APP_DATABASE_PASSWORD`. In order to create a random password, you can run `rake secret`.
